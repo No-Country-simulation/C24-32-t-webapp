@@ -107,8 +107,6 @@ body json: { "username": "alice", "password": "password123" }
 GET usuario
 GET localhost:8080/users/1
 
-
-
 UX/Ui Design:
 Optimal workshop
 Whimsical
@@ -159,12 +157,6 @@ https://github.com/No-Country-simulation/C24-32-t-webapp
 
 ////////////////////////////////////////////////////////
 
-# 📊 Quo - Plataforma Educativa de Criptomonedas
-
-🚀 **Quo** es una plataforma educativa que ofrece información actualizada y accesible sobre el mundo de las criptomonedas. Permite a los usuarios explorar datos de monedas digitales, gestionar cuentas y acceder a contenido educativo especializado.
-
-🔗 [Acceder a la App](https://fintechquo.netlify.app/)
-
 ---
 
 ## 📌 **Información del Proyecto**
@@ -181,60 +173,6 @@ https://github.com/No-Country-simulation/C24-32-t-webapp
 | **Jeheremi Ruiz**      | Backend                      |
 
 🔍 **Repositorio del Proyecto:** [GitHub](https://github.com/No-Country-simulation/C24-32-t-webapp)
-
----
-
-## 📚 **Endpoints de la API**
-
-### 📌 **1. Obtener Información de Criptomonedas**
-
-```bash
-GET /coins
-```
-
-```bash
-curl -X GET https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/coins
-```
-
-### 🔐 **2. Iniciar Sesión**
-
-```bash
-POST /login
-```
-
-```bash
-curl -X POST "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/login" \
-     -H "Content-Type: application/json" \
-     -d '{"username": "alice", "password": "password123"}'
-```
-
-**Respuesta:**
-
-```json
-{
-  "jwTtoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-}
-```
-
-### 👤 **3. Obtener Información del Usuario**
-
-```bash
-GET /users/{id}
-```
-
-```bash
-curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/users/1" \
-     -H "Authorization: Bearer {token}" 
-```
-
-**Respuesta:**
-
-```json
-{
-  "username": "alice",
-  "mail": "alice@example.com"
-}
-```
 
 ---
 
@@ -274,5 +212,31 @@ npm run dev
 ```
 
 ---
+
+
+//////////////////////////////////////
+## 🛠️ Tecnologías Utilizadas
+
+### 🎨 UX/UI Design:
+
+- ![Optimal Workshop](https://img.shields.io/badge/Optimal%20Workshop-%23008AD7?style=for-the-badge&logoColor=white)
+- ![Whimsical](https://img.shields.io/badge/Whimsical-%23602F96?style=for-the-badge&logo=whimsical&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+- ![Google Forms](https://img.shields.io/badge/Google%20Forms-%234285F4?style=for-the-badge&logo=googleforms&logoColor=white)
+- ![Photopea](https://img.shields.io/badge/Photopea-%23000000?style=for-the-badge&logo=photopea&logoColor=white)
+
+### 💻 Frontend:
+
+- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
+- ![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+### 🧰 Backend:
+
+- ![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
+- ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
 
 
