@@ -4,7 +4,7 @@
 
 🚀 Link [Quo](https://fintechquo.netlify.app/)</br>
 
-Descripción breve:
+Descripción
 Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en el mundo de las criptomonedas. Ofrece recursos interactivos, información actualizada y herramientas de aprendizaje para comprender el funcionamiento del mercado cripto de manera accesible. Te permite comprar y vender 9 criptomonedas con un saldo inicial simulado de 1000 USD
 
 🔍 Funciones principales:
@@ -157,5 +157,122 @@ Rol = Backend
 Link al repositorio = 
 https://github.com/No-Country-simulation/C24-32-t-webapp
 
-Sector del MVP = 
-Fintech
+////////////////////////////////////////////////////////
+
+# 📊 Quo - Plataforma Educativa de Criptomonedas
+
+🚀 **Quo** es una plataforma educativa que ofrece información actualizada y accesible sobre el mundo de las criptomonedas. Permite a los usuarios explorar datos de monedas digitales, gestionar cuentas y acceder a contenido educativo especializado.
+
+🔗 [Acceder a la App](https://fintechquo.netlify.app/)
+
+---
+
+## 📌 **Información del Proyecto**
+
+- **Instancia:** Cohorte
+- **Identificador del Equipo:** `C24-32-t-webapp`
+
+### 👥 **Miembros del Equipo**
+
+| Nombre                 | Rol                          |
+|------------------------|-------------------------------|
+| **Diego Marín**        | UX/UI Designer - Frontend Developer |
+| **Matias Nehuen Malpartida** | Backend                      |
+| **Jeheremi Ruiz**      | Backend                      |
+
+🔍 **Repositorio del Proyecto:** [GitHub](https://github.com/No-Country-simulation/C24-32-t-webapp)
+
+---
+
+## 📚 **Endpoints de la API**
+
+### 📌 **1. Obtener Información de Criptomonedas**
+
+```bash
+GET /coins
+```
+
+```bash
+curl -X GET https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/coins
+```
+
+### 🔐 **2. Iniciar Sesión**
+
+```bash
+POST /login
+```
+
+```bash
+curl -X POST "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/login" \
+     -H "Content-Type: application/json" \
+     -d '{"username": "alice", "password": "password123"}'
+```
+
+**Respuesta:**
+
+```json
+{
+  "jwTtoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+### 👤 **3. Obtener Información del Usuario**
+
+```bash
+GET /users/{id}
+```
+
+```bash
+curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/users/1" \
+     -H "Authorization: Bearer {token}" 
+```
+
+**Respuesta:**
+
+```json
+{
+  "username": "alice",
+  "mail": "alice@example.com"
+}
+```
+
+---
+
+## 🛠️ **Tecnologías Utilizadas**
+
+- **Frontend:** HTML, CSS, JavaScript, Vite
+- **Backend:** Node.js, Express
+- **Autenticación:** JWT (JSON Web Tokens)
+- **Despliegue:** Koyeb, Netlify
+
+---
+
+## 📄 **Cómo Ejecutar el Proyecto Localmente**
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/No-Country-simulation/C24-32-t-webapp.git
+```
+
+2. Entrar al directorio del proyecto:
+
+```bash
+cd C24-32-t-webapp
+```
+
+3. Instalar dependencias:
+
+```bash
+npm install
+```
+
+4. Ejecutar el entorno local:
+
+```bash
+npm run dev
+```
+
+---
+
+
