@@ -27,27 +27,41 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 | **Jeheremi Ruiz**      | Backend                      |
 
 
-## 🧑‍🤝‍🧑 Equipo de Desarrollo
+### 🧑‍🤝‍🧑 **Equipo de Desarrollo**
 
-### Diego Marín
-![Diego Marín](https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7)
-**Rol:** UX/UI Designer - Frontend Developer  
-**Redes Sociales:** [LinkedIn](#) | [GitHub](#)  
+<div style="display: flex; justify-content: space-between; gap: 20px;">
 
----
+<!-- Perfil de Diego Marín -->
+<div style="border: 2px solid #ccc; border-radius: 12px; padding: 16px; text-align: center; width: 30%;">
+  <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+  <h3>Diego Marín</h3>
+  <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
+  <p>
+    🔗 [GitHub](#) | 💼 [LinkedIn](#) | 🌐 [Portfolio](#)
+  </p>
+</div>
 
-### Matias Nehuen Malpartida
-![Matias Nehuen Malpartida](https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727)
-**Rol:** Backend Developer  
-**Redes Sociales:** [LinkedIn](#) | [GitHub](#)  
+<!-- Perfil de Matias Nehuen Malpartida -->
+<div style="border: 2px solid #ccc; border-radius: 12px; padding: 16px; text-align: center; width: 30%;">
+  <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+  <h3>Matias Nehuen Malpartida</h3>
+  <p><strong>Rol:</strong> Backend Developer</p>
+  <p>
+    🔗 [GitHub](#) | 💼 [LinkedIn](#)
+  </p>
+</div>
 
----
+<!-- Perfil de Jeheremi Ruiz -->
+<div style="border: 2px solid #ccc; border-radius: 12px; padding: 16px; text-align: center; width: 30%;">
+  <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+  <h3>Jeheremi Ruiz</h3>
+  <p><strong>Rol:</strong> Backend Developer</p>
+  <p>
+    🔗 [GitHub](#) | 💼 [LinkedIn](#)
+  </p>
+</div>
 
-### Jeheremi Ruiz
-![Jeheremi Ruiz](https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6)
-**Rol:** Backend Developer  
-**Redes Sociales:** [LinkedIn](#) | [GitHub](#)
-
+</div>
 
 ---
 
