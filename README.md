@@ -22,6 +22,85 @@ Bankend
 
 COMANDOS cURL AL SERVER
 
+# 📘 Quo API - Documentación
+
+Bienvenido a la documentación de la **API de Quo**, una plataforma educativa centrada en criptomonedas. Aquí encontrarás los principales endpoints para interactuar con la API.
+
+## 📌 Endpoints
+
+### 1. Obtener lista de monedas
+
+**Descripción:** Recupera un listado actualizado de las criptomonedas disponibles.
+
+```bash
+GET /coins
+```
+
+**Ejemplo de uso:**
+
+```bash
+curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/coins"
+```
+
+### 2. Iniciar sesión
+
+**Descripción:** Permite a un usuario autenticarse en la plataforma y recibir un token JWT.
+
+```bash
+POST /login
+```
+
+**Ejemplo de uso:**
+
+```bash
+curl -X POST "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/login" \
+     -H "Content-Type: application/json" \
+     -d '{"username": "alice", "password": "password123"}'
+```
+
+**Respuesta exitosa:**
+
+```json
+{
+  "jwTtoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJxdW8iLCJzdWIiOiJhbGljZSIsImlkIjoxLCJleHAiOjE3NDA1MTc5NDJ9.UrRCDJRq_PaAIAEOjOJB-ssyHtt1QyKo3MnVJ10pad4"
+}
+```
+
+### 3. Obtener información de un usuario
+
+**Descripción:** Recupera los detalles de un usuario específico autenticado mediante un token JWT.
+
+```bash
+GET /users/:id
+```
+
+**Ejemplo de uso:**
+
+```bash
+curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/users/1" \
+     -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJxdW8iLCJzdWIiOiJhbGljZSIsImlkIjoxLCJleHAiOjE3NDA1MTc5NDJ9.UrRCDJRq_PaAIAEOjOJB-ssyHtt1QyKo3MnVJ10pad4"
+```
+
+**Respuesta exitosa:**
+
+```json
+{
+  "username": "alice",
+  "mail": "alice@example.com"
+}
+```
+
+## 📋 Notas
+- Asegúrate de utilizar el token JWT en los endpoints protegidos.
+- Los tokens tienen un tiempo de expiración ("exp"), después del cual será necesario iniciar sesión nuevamente.
+
+## 📮 Contacto
+Para cualquier duda o soporte, contáctanos en [support@quoapp.com](mailto:support@quoapp.com).
+
+
+
+
+
 ENDPOINT /coins
 $ CURL -X GET resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/coins
 
