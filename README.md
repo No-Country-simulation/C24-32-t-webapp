@@ -15,16 +15,69 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 👉 En resumen: Quo es una plataforma educativa que democratiza el conocimiento sobre criptomonedas, combinando recursos de aprendizaje interactivos con herramientas de análisis del mercado para una experiencia formativa completa.
 
-UX/Ui Design
+## 📌 **Información del Proyecto**
 
+- **Instancia:** Cohorte
+- **Identificador del Equipo:** `C24-32-t-webapp`
 
-Bankend
+### 👥 **Miembros del Equipo**
 
-COMANDOS cURL AL SERVER
+| Nombre                 | Rol                          |
+|------------------------|-------------------------------|
+| **Diego Marín**        | UX/UI Designer - Frontend Developer |
+| **Matias Nehuen Malpartida** | Backend                      |
+| **Jeheremi Ruiz**      | Backend                      |
+
+---
+
+//////////////////////////////////////
+## 🛠️ Tecnologías Utilizadas
+
+### 🎨 UX/UI Design:
+
+- ![Optimal Workshop](https://img.shields.io/badge/Optimal%20Workshop-%23008AD7?style=for-the-badge&logoColor=white)
+- ![Whimsical](https://img.shields.io/badge/Whimsical-%23602F96?style=for-the-badge&logo=whimsical&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+- ![Google Forms](https://img.shields.io/badge/Google%20Forms-%234285F4?style=for-the-badge&logo=googleforms&logoColor=white)
+- ![Photopea](https://img.shields.io/badge/Photopea-%23000000?style=for-the-badge&logo=photopea&logoColor=white)
+
+### 💻 Frontend:
+
+- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
+- ![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+## 📄 **Cómo Ejecutar el Proyecto Localmente**
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/No-Country-simulation/C24-32-t-webapp.git
+```
+
+2. Entrar al directorio del proyecto:
+
+```bash
+cd C24-32-t-webapp
+```
+
+3. Instalar dependencias:
+
+```bash
+npm install
+```
+
+4. Ejecutar el entorno local:
+
+```bash
+npm run dev
+```
 
 # 📘 Quo API - Documentación
 
-Bienvenido a la documentación de la **API de Quo**, una plataforma educativa centrada en criptomonedas. Aquí encontrarás los principales endpoints para interactuar con la API.
+Bienvenido a la documentación de la **API de Quo**. Aquí encontrarás los principales endpoints para interactuar con la API.
 
 ## 📌 Endpoints
 
@@ -107,102 +160,10 @@ body json: { "username": "alice", "password": "password123" }
 GET usuario
 GET localhost:8080/users/1
 
-
-Instancia = Cohorte
-
-Identificador del equipo = 
-C24-32-t-webapp
-
-Miembros del Equipo:
-Diego Marín
-Rol = UX/Ui Designer - Frontend Developer
-
-Matias Nehuen Malpartida
-Rol = Backend
-
-Jeheremi Ruiz
-Rol = Backend
-
-Link al repositorio = 
-https://github.com/No-Country-simulation/C24-32-t-webapp
-
 ////////////////////////////////////////////////////////
 
 ---
 
-## 📌 **Información del Proyecto**
-
-- **Instancia:** Cohorte
-- **Identificador del Equipo:** `C24-32-t-webapp`
-
-### 👥 **Miembros del Equipo**
-
-| Nombre                 | Rol                          |
-|------------------------|-------------------------------|
-| **Diego Marín**        | UX/UI Designer - Frontend Developer |
-| **Matias Nehuen Malpartida** | Backend                      |
-| **Jeheremi Ruiz**      | Backend                      |
-
-🔍 **Repositorio del Proyecto:** [GitHub](https://github.com/No-Country-simulation/C24-32-t-webapp)
-
----
-
-## 🛠️ **Tecnologías Utilizadas**
-
-- **Frontend:** HTML, CSS, JavaScript, Vite
-- **Backend:** Node.js, Express
-- **Autenticación:** JWT (JSON Web Tokens)
-- **Despliegue:** Koyeb, Netlify
-
----
-
-## 📄 **Cómo Ejecutar el Proyecto Localmente**
-
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/No-Country-simulation/C24-32-t-webapp.git
-```
-
-2. Entrar al directorio del proyecto:
-
-```bash
-cd C24-32-t-webapp
-```
-
-3. Instalar dependencias:
-
-```bash
-npm install
-```
-
-4. Ejecutar el entorno local:
-
-```bash
-npm run dev
-```
-
----
-
-
-//////////////////////////////////////
-## 🛠️ Tecnologías Utilizadas
-
-### 🎨 UX/UI Design:
-
-- ![Optimal Workshop](https://img.shields.io/badge/Optimal%20Workshop-%23008AD7?style=for-the-badge&logoColor=white)
-- ![Whimsical](https://img.shields.io/badge/Whimsical-%23602F96?style=for-the-badge&logo=whimsical&logoColor=white)
-- ![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-- ![Google Forms](https://img.shields.io/badge/Google%20Forms-%234285F4?style=for-the-badge&logo=googleforms&logoColor=white)
-- ![Photopea](https://img.shields.io/badge/Photopea-%23000000?style=for-the-badge&logo=photopea&logoColor=white)
-
-### 💻 Frontend:
-
-- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-- ![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
-- ![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 # 🔗 Links de Desarrollo
 
