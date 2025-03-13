@@ -64,7 +64,7 @@ El resultado es una plataforma que combina una experiencia fluida con un diseño
 Para mayor conocimiento los links de su investigaci+on y calidación prototipo:
 
 💻UX Research:</br>
-[![UXResearch](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://fintechquo.netlify.app/)
+[![UXResearch](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?node-id=0-1&t=c3pELqfLcxZl4SJX-1)
 
 🔰Proceso de desarrollo:</br>
 [![Desarrollo](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?node-id=0-1&t=c3pELqfLcxZl4SJX-1)
