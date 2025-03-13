@@ -1,0 +1,148 @@
+
+
+/* Maincontainer */
+
+/* Seguridad Section */
+
+.seguridadSection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px auto;
+}
+
+.seguridadSection .seguridadCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+
+.seguridadSection .seguridadCenter .heading{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap:10px;
+    padding: 0px;
+    text-align: center;
+}
+
+.seguridadSection .seguridadCenter .heading .titleSection{
+    font-family: var(--fontFamilyIBM);
+    color:transparent;
+    font-size: 5.625rem;
+    font-weight: 800;
+    background: radial-gradient(
+    closest-side at 50% 50%,
+    rgba(99, 125, 106, 0.84) 0%,
+    #4D6754 59%,
+    #2F4836 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    animation:titleup 0.5s linear;
+}
+
+@keyframes titleup{
+    0%{
+        transform:translateY(100%);
+    }
+    100%{
+        transform:translateY(0%);
+    }
+}
+
+.seguridadSection .seguridadCenter .heading .text{
+    width:50%;
+    height: auto;
+    font-family: var(--fontFamilySpace);
+    color:#BDBDBD;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.seguridadSection .seguridadCenter .deviceSet{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.seguridadSection .seguridadCenter .deviceSet .images{
+    width:auto;
+    height: auto;
+    z-index:2;
+}
+
+.seguridadSection .seguridadCenter .deviceSet .images:nth-child(1){
+    opacity:0;
+    align-self: self-start;
+    padding-top: 50px;
+    animation:iconOne 20s linear 0s infinite;
+}
+
+@keyframes iconOne{
+    0%{
+        transform:scale(90%);
+        opacity:0;
+    }
+    50%{
+        transform:scale(115%);
+        opacity:0.1;
+    }
+    100%{
+        transform:scale(90%);
+        opacity:0;
+    }
+}
+
+.seguridadSection .seguridadCenter .deviceSet .images:nth-child(2){
+    width:60%;
+    height: auto;
+}
+
+.seguridadSection .seguridadCenter .deviceSet .images:nth-child(3){
+    opacity:0;
+    animation:iconTwo 20s linear 5s infinite;
+}
+
+@keyframes iconTwo{
+    0%{
+        transform:scale(80%);
+        opacity:0;
+    }
+    50%{
+        transform:scale(120%);
+        opacity:0.1;
+    }
+    100%{
+        transform:scale(80%);
+        opacity:0;
+    }
+}
+
+.seguridadSection .seguridadCenter .deviceSet .greenSpot{
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 200px 200px #00EF5D;
+    z-index: 1;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: #00C844;
+}

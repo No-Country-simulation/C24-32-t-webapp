@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontFamilyIBM:"IBM Plex Sans", serif;
+    --fontFamilySpace:"Space Mono", serif;
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Space Mono", monospace;
+
+    /* --colorGreenToneFour:#00EF5D;
+    --colorGrayTwo:#CDCDCD;
+    --colorGrayOne:#4E4E4E;
+    --fontSizeOne:1rem;
+    --fontSizeTwo:1.125rem;
+    --fontSizeHeading:4.062rem; */
+
+}
+body{
+    width:100vw;
+    height:auto;
+    overflow-x: hidden;
+}
+
+.landingPage{
+    width:100vw;
+    height:auto;
+    background-repeat:no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #000E00 0%, #172F1F 100%);
+}
+
+html{
+
+    scroll-behavior: smooth;
+}

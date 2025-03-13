@@ -1,0 +1,33 @@
+.linkProfile{
+    width:90%;
+    max-width: 1200px;
+    position:absolute;
+    top:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap:0px;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.linkProfile:hover{
+    text-decoration: underline;
+    color:#D6D6D6;
+}
+
+.linkProfile .iconReturn{
+    width:20px;
+    height:auto;
+    transform:rotate(90deg);
+    transition: 0.3s ease-in-out;
+}
+
+.linkProfile:hover > .iconReturn{
+    margin-right: 5px;
+}

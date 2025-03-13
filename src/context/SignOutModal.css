@@ -1,0 +1,129 @@
+/*
+
+/* Fondo oscuro del modal */
+
+.signoutModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Contenedor del modal */
+
+.signoutModal{
+  width: 30%;
+  max-width: 350px;
+  background-color: #1D1D1D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px #000000cc;
+  color: white;
+  text-align: center;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+/* Animaciones */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.confirmationSignout{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  padding-bottom:30px;
+  border-bottom:1px solid #363636;
+  padding: 20px 20px 40px;
+}
+
+.confirmationSignout .titleSignout{
+  width:100%;
+  color:#E4E4E4;
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: var(--fontFamilyIBM);
+}
+
+.confirmationSignout .subtitleSignout{
+  width:100%;
+  color:#A4A4A4;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--fontFamilyIBM);
+
+}
+
+/* Botones del modal */
+
+.modalButtons {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+  padding: 20px;
+}
+
+.confirmButton,
+.cancelButton {
+  width:100%;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: var(--fontFamilyIBM);
+  transition: background 0.3s ease;
+}
+
+.confirmButton {
+  background: #e63946;
+  color: white;
+}
+
+.confirmButton:hover {
+  background: #b71c1c;
+}
+
+.cancelButton {
+  background: #4caf50;
+  color: white;
+}
+
+.cancelButton:hover {
+  background: #2e7d32;
+}
+
+

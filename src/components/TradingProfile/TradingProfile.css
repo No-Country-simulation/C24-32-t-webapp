@@ -1,0 +1,350 @@
+
+.bodyTradingProfile{
+    width:100vw;
+    height:auto;
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    color:white;
+}
+
+.containerTradingProfile{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 130px auto;
+}
+
+.containerTradingProfile .tradingProfileSection{
+    width:90%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Heading */
+
+.containerTradingProfile .tradingProfileSection .heading{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.containerTradingProfile .tradingProfileSection .heading .titleSection{
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+
+.containerTradingProfile .tradingProfileSection .heading .sentence{
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* CardBlock */
+
+.containerTradingProfile .tradingProfileSection .cardBlock{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards .card{
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #172F1F;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .titleCard{
+    width:100%;
+    font-family: var(--fontFamilyIBM);
+    color:#b8b8b8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #2F4836;
+    padding-bottom:20px;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .bunchText{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .bunchText .column{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .bunchText .column .time{
+    width:100%;
+    font-family: var(--fontFamilySpace);
+    color:#979797;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .bunchText .column .time .number{
+    width:100%;
+    font-family: var(--fontFamilySpace);
+    color:#828282;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Selling or buying Links */
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards #cardSell .btnGrey{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#4E4E4E;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:#ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards #cardSell .btnGrey{
+    color:#ffffff;
+    background-color:#4E4E4E;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards #cardSell .btnGrey:hover{
+    color:#4E4E4E;
+    background-color:#ffffff;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards #variation{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center ;
+    gap:50px;
+    margin:auto;
+}
+
+.containerTradingProfile .tradingProfileSection .cardBlock .cards #variation .percentage{
+    width:100%;
+    font-family: var(--fontFamilySpace);
+    color:#00C844;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ComparationGraphic */
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000E00;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .titleCard{
+    width:100%;
+    font-family: var(--fontFamilyIBM);
+    color:#b8b8b8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap:30px;
+    margin:auto;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card{
+    width:600px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #172F1F;
+    padding:30px;
+    border-radius: 10px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .city{
+    width:100%;
+    margin-bottom:0px;
+    font-family: var(--fontFamilySpace);
+    color:#979797;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #172F1F;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto .imageCripto{
+    width:16px;
+    height:auto;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto .item{
+    color:#637D6A;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--fontFamilySpace);
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto .item .acronism{
+    color:#00C844;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .price{
+    color:#637D6A;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--fontFamilySpace);
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .numberOne{
+    color:#999999;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--fontFamilySpace);
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .numberTwo{
+    color:#6D6D6D;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--fontFamilySpace);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .numberTwo .percentage{
+    color:#00C844;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Graphic */
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .graphicBlock{
+    width:100%;
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .graphicBlock .graphic{
+    width:100%;
+    height:100%;
+}
+
+/* GoToDashboard Link*/
+
+.containerTradingProfile .goToDashboard{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    margin:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:20px;
+}
+
+.containerTradingProfile .goToDashboard .linkToDashboard{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#1d1d1d;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding:10px 25px;
+    text-decoration:none;
+    background-color: #00FF66;
+    border-radius: 10px;
+    transition:0.3s ease-in;
+}
+
+.containerTradingProfile .goToDashboard .linkToDashboard:hover{
+    background-color: #ffffff;
+}

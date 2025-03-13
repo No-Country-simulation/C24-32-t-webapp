@@ -1,0 +1,81 @@
+
+/* Main container */
+
+/* Trading Section */
+
+.tradingSection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px auto;
+}
+
+.tradingSection .tradingCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+
+.tradingSection .tradingCenter .card{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    background-image:url("/img/backgroundTrading.webp");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.tradingSection .tradingCenter .card .headingCard{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap:10px;
+    padding: 75px 75px 0px;
+}
+
+.tradingSection .tradingCenter .card .headingCard .titleSection{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilyIBM);
+    color:#DDDDDD;
+    font-size: 2.8125rem;
+    font-weight: 500;
+}
+
+.tradingSection .tradingCenter .card .headingCard .text{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilySpace);
+    color:#BDBDBD;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.tradingSection .tradingCenter .card .imageScreenshot{
+    width:100%;
+    height:100%;
+
+}
+
+.tradingSection .tradingCenter .card .imageScreenshot .screenshot{
+    width:100%;
+    height:100%;
+    transform:translate(-20%, 10%);
+}

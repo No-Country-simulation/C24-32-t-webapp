@@ -1,0 +1,212 @@
+
+.headerProfile{
+    width:100vw;
+    height:auto;
+    background-color:#1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 9;
+    margin: auto;
+    padding:10px;
+}
+
+.headerProfile .headerCenter{
+    width:90%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.headerProfile .headerCenter .leftSide{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.headerProfile .headerCenter .leftSide .isotipo{
+    width:30px;
+    height:auto;
+    cursor: pointer;
+}
+
+.headerProfile .headerCenter .leftSide .activeMenu .menuIcon{
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+
+.headerProfile .headerCenter .rightSide{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.headerProfile .headerCenter .rightSide .userName{
+    font-family: var(--fontFamilyIBM);
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color:#E4E4E4;
+}
+
+.headerProfile .headerCenter .rightSide .avatar{
+    width:25px;
+    height:25px;
+}
+
+/* Input */
+
+.headerProfile #menu{
+    display:none;
+    z-index: 99;
+}
+
+.headerProfile #menu:checked ~ .menuSide{
+    transform:translateX(0%);
+}
+
+.headerProfile #menu:checked ~ .darkScreen{
+    opacity: 1;
+    visibility:visible;
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter: blur(6px); /* Compatible con Safari */
+    background-color: #00000090;
+}
+
+/* DarkScreen */
+
+.headerProfile .darkScreen{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    opacity: 0;
+    visibility:hidden;
+    transition:opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* MenuSide */
+
+.headerProfile .menuSide{
+    width:250px;
+    height:100vh;
+    z-index:100;
+    position: fixed;
+    top:0;
+    left:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap:100px;
+    /* overflow: hidden; */
+    background-color: #1d1d1d;
+    transform:translateX(-120%);
+    transition:transform .3s ease-in-out;
+}
+
+.headerProfile .menuSide .activeMenu{
+    width:auto;
+    height:auto;
+    display:flex;
+    position:relative;
+    top:10px;
+    right:-35px;
+    margin: 0px;
+    justify-content: flex-end;
+}
+
+.headerProfile .menuSide .activeMenu .closeIcon{
+    width:30px;
+    height:30px;
+}
+
+.headerProfile .menuSide .activeMenu .closeIcon{
+    width:30px;
+    height:30px;
+}
+
+.headerProfile .menuSide .navbar{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:120px;
+}
+
+.headerProfile .menuSide .navbar ul{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+}
+
+.headerProfile .menuSide .navbar ul li{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.headerProfile .menuSide .navbar ul li:nth-child(4) span{
+    font-family: var(--fontFamilyIBM);
+    color:#51FF83;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding:2.5px 8px;
+    border-radius: 5px;
+    background-color: #00a73244;
+}
+
+.headerProfile .menuSide .navbar ul li .item{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+    text-decoration: none;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+    padding:10px 25px;
+    border:none;
+    background-color: #1d1d1d;
+    transition: 0.3s ease-in-out;
+}
+
+.headerProfile .menuSide .navbar ul li .item:hover{
+    background-color: #393939;
+}
+
+.headerProfile .menuSide .navbar ul li .item .img{
+    width:20px;
+    height:20px;
+}

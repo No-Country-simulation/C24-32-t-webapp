@@ -1,0 +1,224 @@
+
+/* MainContainer */
+
+/* Testimony Section */
+
+.testimonySection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px auto;
+}
+
+.testimonySection .testimonyCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+
+.testimonySection .testimonyCenter .heading .titleSection{
+    font-family: var(--fontFamilyIBM);
+    color:transparent;
+    font-size: 5.625rem;
+    font-weight: 800;
+    background: radial-gradient(
+    closest-side at 50% 50%,
+    rgba(99, 125, 106, 0.84) 0%,
+    #4D6754 59%,
+    #2F4836 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    text-align: left;
+    animation:titleup 0.5s linear;
+}
+
+@keyframes titleup{
+    0%{
+        transform:translateY(100%);
+    }
+    100%{
+        transform:translateY(0%);
+    }
+}
+
+/* CardSet */
+
+.testimonySection .testimonyCenter .cardSet{
+    width:auto;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    ".     message card6"
+    ".     card3   card6"
+    "card1 card3   card7"
+    "card1 card4   card7"
+    "card2 card4   card8"
+    "card2 card5   card8"
+    ".     card5     .";
+    gap:30px;
+}
+
+.testimonySection .testimonyCenter .cardSet .card{
+    width:auto;
+    height:auto;
+    background: linear-gradient(90deg,
+    #00551a 0%,
+    #00551a 40%,
+    #004113 66%,
+    #00300F 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:15px;
+    border-radius: 20px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(1){
+    grid-area: message;
+    width:100%;
+    height:100%;
+    padding:20px;
+    background:none;
+    border-radius: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:0px;
+    .blockMessage{
+        font-family: var(--fontFamilyIBM);
+        color: #00cc84;
+        font-size: 1.125rem;
+        font-weight: 500;
+        text-align: left;
+    }
+}
+
+.testimonySection .testimonyCenter  .cardSet .card:nth-child(2){
+    grid-area: card1;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(3){
+    grid-area: card2;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(4){
+    grid-area: card3;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(5){
+    grid-area: card4;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(6){
+    grid-area: card5;
+}
+.testimonySection .testimonyCenter .cardSet .card:nth-child(7){
+    grid-area: card6;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(8){
+    grid-area: card7;
+}
+
+.testimonySection .testimonyCenter .cardSet .card:nth-child(9){
+    grid-area: card8;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:10px;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .avatar{
+    width:40px;
+    height:auto;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:10px;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser .user{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    gap:0px;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser .user .name{
+    font-family: var(--fontFamilySpace);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser .user .date{
+    font-family: var(--fontFamilySpace);
+    color:#CDCDCD;
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser .simbols{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser .simbols .checkIcon{
+    width:16px;
+    height:auto;
+}
+
+.testimonySection .testimonyCenter .cardSet .card .headingCard .infoUser .simbols .at{
+    font-family: var(--fontFamilySpace);
+    color:#00EF5D;
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-align: left;
+}
+.testimonySection .testimonyCenter .cardSet .card .blockContext .context{
+    font-family: var(--fontFamilySpace);
+    color:#A4A4A4;
+    font-size: 0.8rem;
+    font-weight: 600;
+    span{
+        color:#00EF5D;
+    }
+}
+
+
+

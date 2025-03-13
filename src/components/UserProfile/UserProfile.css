@@ -1,0 +1,241 @@
+
+.bodyUserProfile{
+    width:100vw;
+    height:auto;
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.containerUser{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:70px auto 100px;
+}
+
+.containerUser .userSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerUser .userSection .userCenter .heading{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+}
+
+.containerUser .userSection .userCenter .heading .titleSetting{
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 2.1875rem;
+    font-weight: 500;
+    margin-bottom:0px;
+}
+
+.containerUser .userSection .userCenter .heading .content{
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+
+.containerUser .userSection .userCenter .userBlock{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn{
+    width:auto;
+    height:100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "user    name"
+    "user    name"
+    "user    cellphone"
+    "profile cellphone";
+    gap:20px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card:nth-child(1){
+    grid-area: user;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card:nth-child(2){
+    grid-area: profile;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card:nth-child(3){
+    grid-area: name;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card:nth-child(4){
+    grid-area: cellphone;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card{
+    width:300px;
+    height:auto;
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard .userPic{
+    width:50%;
+    height:auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard .userPic .avatar{
+    width:50%;
+    height:auto;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard .userPic .icon{
+    width:24px;
+    height:auto;
+    position:absolute;
+    top:0;
+    right:10px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .footerCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .headingCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:10px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .headingCard .titleCard{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#ADADAD;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #resumeCard .headingCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #resumeCard .headingCard .userName,
+.containerUser .userSection .userCenter .userBlock .userColumn #resumeCard .headingCard .cellphone{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilySpace);
+    color:#D6D6D6;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .bodyCard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:20px;
+    border-bottom: 1px solid #393939;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .bodyCard .nameUser{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilySpace);
+    color:#D6D6D6;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .bodyCard .icon{
+    width:20px;
+    height:auto;
+    margin-left: auto;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .footerCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn .card .footerCard .btn{
+    width:auto;
+    height:auto;
+    padding:8px 20px;
+    background-color: transparent;
+    font-family: var(--fontFamilyIBM);
+    color:#00FF66;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border-radius:10px;
+    border: 1px dashed #00FF66;
+    text-decoration: none;
+}

@@ -1,0 +1,255 @@
+/* Main container */
+
+/* Blog Section */
+
+.blogSection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px auto;
+    padding:100px 0px;
+}
+
+.blogSection .blogCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+/* Heading */
+
+.blogSection .blogCenter .heading{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.blogSection .blogCenter .heading .titleSection{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilyIBM);
+    color:#DDDDDD;
+    font-size: 2.8125rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.blogSection .blogCenter .heading .text{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilySpace);
+    color:#BDBDBD;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* BlogSlider */
+
+.blogSection .blogCenter .blogSlider{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:65px;
+    overflow: hidden;
+}
+
+/* Blog */
+
+.blogSection .blogCenter .blogSlider .blogBlock{
+    width:max-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-direction: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+    padding:0px 45px;
+}
+
+/* BlogCard */
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard{
+    width:350px;
+    height: auto;
+    background-color: #2F4836;
+    border-radius: 20px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    transition:transform 0.3s ease-in-out;
+}
+
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard:hover .bodyCard .backgroundImage .imageCard{
+    transform:scale(105%);
+}
+
+/* HeadingCard */
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .headingCard{
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .headingCard .blogInfo{
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:5px;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .headingCard .blogInfo .titleCard{
+    font-family: var(--fontFamilyIBM);
+    color:#E0E0E0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .headingCard .blogInfo .content{
+    font-family: var(--fontFamilySpace);
+    color:#A9A9A9;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* BodyCard */
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .bodyCard{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    overflow: hidden;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .bodyCard .backgroundImage{
+    width:100%;
+    height:auto;
+    background-image: url("../../img/fondoCardBlog.webp") ;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .bodyCard .backgroundImage .imageCard{
+    width:120px;
+    height:auto;
+    padding: 20px;
+    object-fit: cover;
+    transform:scale(100%);
+    transition:transform 0.3s ease-in-out;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .bodyCard .content{
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 0.85rem;
+    font-weight: 300;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* FooterCard */
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .footerCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top:20px;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .footerCard .activeBtn{
+    width:auto;
+    height:auto;
+    padding:10px 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    font-family: var(--fontFamilyIBM);
+    color:#000000;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: left;
+    transition: 0.3s ease-in-out;
+}
+
+.blogSection .blogCenter .blogSlider .blogBlock .blogCard .footerCard .activeBtn:hover{
+    background-color: #4D6754;
+    border: 1px solid #4D6754;
+    color:#ffffff;
+}
+
+/* Direction Arrows */
+
+.blogSection .blogCenter .blogSlider .directionArrows{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    gap:15px;
+}
+
+.blogSection .blogCenter .blogSlider .directionArrows .arrow{
+    width:auto;
+    height:auto;
+    border-radius:10px;
+    background-color:#172F1F;
+    transition:0.3s ease-in-out;
+}
+
+.blogSection .blogCenter .blogSlider .directionArrows .arrow:hover{
+    background-color:#4D6754;
+}

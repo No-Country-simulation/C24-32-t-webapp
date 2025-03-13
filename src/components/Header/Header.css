@@ -1,0 +1,140 @@
+
+/* Header */
+
+.header{
+    width:100vw;
+    height: auto;
+    background-color: #0f2919ad;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 9;
+    margin: auto;
+}
+
+.header .headerCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .headerCenter .blockIsotipo {
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .headerCenter .blockIsotipo .blockImagotipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.header .headerCenter .itemOptions{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.header .headerCenter .itemOptions .navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .headerCenter .itemOptions .navbar ul{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .headerCenter .itemOptions .navbar ul li{
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+    list-style-type: none;
+}
+
+.header .headerCenter .itemOptions .navbar ul li .item{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+    text-decoration: none;
+    padding: 25px 15px;
+    font-family: var(--fontFamilyIBM);
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.header .headerCenter .itemOptions .navbar ul li .item:hover{
+    color:#00EF5D;
+    border-bottom:2px solid #00EF5D;
+    background-color: #0F2919;
+}
+
+.header .headerCenter .itemOptions .buttons{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.header .headerCenter .itemOptions .buttons .button{
+    width:143px;
+    height:41px;
+    padding: 10px 25px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size:1rem;
+    font-weight: 600;
+    padding:10px 25px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.header .headerCenter .itemOptions .buttons .button:nth-child(1){
+    background-color:#4E4E4E ;
+    color:#ffffff;
+}
+
+.header .headerCenter .itemOptions .buttons .button:nth-child(2){
+    background-color:#00EF5D ;
+    color:#000000;
+}
+
+.header .headerCenter .itemOptions .buttons .button:nth-child(1):hover,
+.header .headerCenter .itemOptions .buttons .button:nth-child(2):hover{
+    background-color: #ffffff;
+    color:#000000;
+}

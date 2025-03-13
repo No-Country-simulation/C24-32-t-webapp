@@ -1,0 +1,131 @@
+
+
+.headerSignOut{
+    width:100vw;
+    height:auto;
+    background-color:#1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 9;
+    margin: auto;
+    padding:10px;
+}
+
+.headerSignOut .headerCenter {
+    width:90%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.headerSignOut .headerCenter .leftSide{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.headerSignOut .headerCenter .leftSide .imagotipo{
+    width:auto;
+    height:auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+.headerSignOut .headerCenter .leftSide .isotipo{
+    width:30px;
+    height:auto;
+}
+
+.headerSignOut .headerCenter .leftSide .imagotipo .logotipo{
+    width:50px;
+    height:auto;
+}
+
+/* MainContainer */
+
+.containerFarewell{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+    margin:50px auto;
+}
+
+.containerFarewell .farewellSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFarewell .farewellSection .titleSection{
+    width:50%;
+    height:auto;
+    text-align: center;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 2.1875rem;
+    font-weight: 500;
+    margin-bottom:50px;
+}
+
+.containerFarewell .farewellSection .ilustracion{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom:25px;
+}
+
+.containerFarewell .farewellSection .sentence{
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+
+.containerFarewell .farewellSection .goToIndex{
+    width:auto;
+    height:auto;
+    padding:10px 25px;
+    background-color: #00FF66;
+    font-family: var(--fontFamilyIBM);
+    color:#1D1D1D;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius:10px;
+    text-decoration: none;
+    transition:0.3s ease-in-out;
+}
+
+.containerFarewell .farewellSection .goToIndex:hover{
+    background-color: var(--colorWhite);
+}
+

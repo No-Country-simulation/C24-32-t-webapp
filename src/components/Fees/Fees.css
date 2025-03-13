@@ -1,0 +1,344 @@
+
+/* Main container */
+
+/* Trading Section */
+
+.tarifasSection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:190px auto 120px;
+}
+
+.tarifasSection .tarifasCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.tarifasSection .tarifasCenter .heading{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.tarifasSection .tarifasCenter .heading .titleSection{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilyIBM);
+    color:#DDDDDD;
+    font-size: 2.8125rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tarifasSection .tarifasCenter .heading .text{
+    width:70%;
+    height: auto;
+    font-family: var(--fontFamilySpace);
+    color:#BDBDBD;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Tarifas Set */
+
+.tarifasSection .tarifasCenter .tarifasSet{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:60px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard{
+    width:100%;
+    height:auto;
+    background-color:#172F1F;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard:nth-child(2){
+    border:1.5px solid #00FF66;
+}
+
+/* Free Plan */
+
+/* HeadinCard */
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    border-bottom:1px solid #5A5A5A;
+    padding-bottom:20px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .plan{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .plan .textPlan{
+    font-family: var(--fontFamilySpace);
+    color:#DDDDDD;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .plan .textOne{
+    font-family: var(--fontFamilySpace);
+    color:#707070;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius:25px;
+    border:1px solid #707070;
+    background-color: #70707014;
+    padding:5px 10px;
+}
+
+/* Exception just Premium Plan */
+
+.tarifasSection .tarifasCenter .tarifasSet .premium .headingCard .plan .textPremium{
+    font-family: var(--fontFamilySpace);
+    color:#00FF66;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius:25px;
+    border:1px solid #00ff66;
+    background-color: #00ff6614;
+    padding:5px 10px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .numbers{
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .numbers .price{
+    font-family: var(--fontFamilySpace);
+    color:#CECECE;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .numbers .bunchDolar{
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    gap:5px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .numbers .bunchDolar .flag{
+    width:auto;
+    height:auto;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .numbers .bunchDolar .dolar{
+    font-family: var(--fontFamilySpace);
+    color:#ffffff;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .motivationText{
+    width:100%;
+    background-color: #ffffff13;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .motivationText .textTwo{
+    font-family: var(--fontFamilySpace);
+    color:#CECECE;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+/* BodyCard */
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped{
+    width:auto;
+    height:321px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .bodyCard{
+    width:auto;
+    height:321px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .bodyCard .features{
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .bodyCard .features .check{
+    width:13..99px;
+    height:13.99px;
+
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .bodyCard .features .option{
+    font-family: var(--fontFamilySpace);
+    color:#DEDEDE;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextFree{
+    display:none;
+}
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard label.open{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor:pointer;
+}
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard label.open .arrow{
+    width:auto;
+    height:auto;
+    transform:rotateX(0deg);
+    transition:transform 0.2s ease-in-out;
+}
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextFree:checked + label.open .arrow{
+    transform:rotateX(180deg);
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity:0;
+    visibility:hidden;
+    max-height:0 ;
+    transition: max-height 0.2s ease-in-out, opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextFree:checked ~ .wrapped{
+    max-height: 100%;
+    opacity:1;
+    visibility:visible;
+}
+
+/* Premium Plan */
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextPremium{
+    display:none;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextPremium:checked + label.open .arrow{
+    transform:rotateX(180deg);
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextPremium:checked ~ .wrapped{
+    max-height: 100%;
+    opacity:1;
+    visibility:visible;
+}
+
+
+/* Platinum Plan */
+
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextPlatinum{
+    display:none;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextPlatinum:checked + label.open .arrow{
+    transform:rotateX(180deg);
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextPlatinum:checked ~ .wrapped{
+    max-height: 100%;
+    opacity:1;
+    visibility:visible;
+}
+
+/* Buttons FooterCard, similar like: Free, Premium & Platinum*/
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .footerCard{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+    border-top:1px solid #5A5A5A;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .footerCard .link{
+    width:80%;
+    height:auto;
+    font-family: var(--fontFamilyIBM);
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding:15px;
+    color:#000000;
+    text-align: center;
+    text-decoration:none;
+    transition:0.3s ease-in-out;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .wrapped .footerCard .link:hover{
+    background-color:#4D6754;
+    color:#ffffff;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .premium .wrapped .footerCard .link{
+    color:#000000;
+    background-color:#00FF66;
+    transition:0.3s ease-in-out;
+}
+
+.tarifasSection .tarifasCenter .tarifasSet .premium .wrapped .footerCard .link:hover{
+    background-color:#ffffff;
+    color:#000000;
+}

@@ -1,0 +1,150 @@
+.bodySetting{
+    width:100vw;
+    height:auto;
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.containerSetting{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto 100px;
+}
+
+.containerSetting .settingSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSetting .settingSection .settingCenter .heading{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:100px;
+}
+
+.containerSetting .settingSection .settingCenter .heading .titleSetting{
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 2.1875rem;
+    font-weight: 500;
+    margin-bottom:0px;
+}
+
+.containerSetting .settingSection .settingCenter .heading .content{
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card{
+    width:300px;
+    height:auto;
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .headingCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:10px;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .headingCard .titleCard{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#ADADAD;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .bodyCard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:20px;
+    border-bottom: 1px solid #393939;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .bodyCard .nameUser{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilySpace);
+    color:#D6D6D6;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .bodyCard .icon{
+    width:20px;
+    height:auto;
+    margin-left: auto;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .footerCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerSetting .settingSection .settingCenter .settingBlock .card .footerCard .btn{
+    width:auto;
+    height:auto;
+    padding:8px 20px;
+    background-color: transparent;
+    font-family: var(--fontFamilyIBM);
+    color:#00FF66;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border-radius:10px;
+    border: 1px dashed #00FF66;
+    text-decoration: none;
+}

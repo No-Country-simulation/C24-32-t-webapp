@@ -1,0 +1,630 @@
+
+.bodyProfileMomentaneo{
+    width:100vw;
+    height:auto;
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    color:white;
+}
+
+.containerProfileMomentaneo{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    margin: 130px auto;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection{
+    width:90%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    /* overflow: hidden; */
+    margin: auto;
+}
+
+/* Heading */
+
+.containerProfileMomentaneo .profileMomentaneoSection .heading{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .heading .titleSection{
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .heading .sentence{
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* CardBlock */
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    position:relative;
+
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowLeft,
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowRight{
+    width:40px;
+    height:auto;
+    position:absolute;
+    background-color: #393939;
+    transition:0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowLeft{
+    left:-50px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowRight{
+    right:-50px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card{
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #172F1F;
+    border-radius: 20px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:10px;
+    border-bottom: 1px solid #2F4836;
+    padding-bottom:20px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText{
+    width:100%;
+    font-family: var(--fontFamilyIBM);
+    color:#E0E0E0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText .text{
+    width:fit-content;
+    font-family: var(--fontFamilyIBM);
+    color:#172f1f;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #637d6a;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText:nth-child(2){
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText:nth-child(2) .titleCard,
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText:nth-child(2) .number{
+    width:auto;
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .imageIncrease{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom:0px;
+    padding:0px 70px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .imageIncrease .iconProfitable{
+    width:80px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .divLink{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .divLink .btn{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#4E4E4E;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:#ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .divLink .btn:hover{
+    color:#ffffff;
+    background-color:#4d6754;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText .text{
+    background-color: transparent;
+    color:#929292;
+    padding: 5px 0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText .textCard{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText .textCard .iconProfitable{
+    width:16px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText:nth-child(2){
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText:nth-child(2) .text{
+    width:auto;
+    color:#929292;
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding:0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers .textCard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers .textCard .text{
+    width:auto;
+    color:#929292;
+    font-family: var(--fontFamilySpace);
+    font-size: 1rem;
+    font-weight: 600;
+    padding:0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers .textCard .number{
+    width:auto;
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 1rem;
+    font-weight: 500;
+    padding:0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .divLink{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .divLink .btn{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    font-size: 1rem;
+    font-weight: 500;
+    color:#ffffff;
+    background-color:#4E4E4E;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .divLink .btn:hover{
+    color:#4E4E4E;
+    background-color:#ffffff;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .heading{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:15px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .heading .titleSection{
+    font-family: var(--fontFamilySpace);
+    color: #E0E0E0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .heading .sentence{
+    font-family: var(--fontFamilyIBM);
+    color: #8f8f8f;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink{
+    width:auto;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+    gap:10px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btn{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    font-size: 1rem;
+    font-weight: 500;
+    color:#ffffff;
+    background-color:#00A732;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btn:hover{
+    color:#ffffff;
+    background-color:#00C844;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btnWhite{
+    color:#ffffff;
+    background-color:#4E4E4E;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btnWhite:hover{
+    color:#4E4E4E;
+    background-color:#ffffff;
+}
+
+
+
+
+
+
+/* Transaction Table */
+
+.containerProfileMomentaneo .profileMomentaneoSection .transactionBlock{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    border-radius:20px;
+    background-color:#393939;
+    padding:20px 30px 20px;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Heading Transaction */
+
+.containerProfileMomentaneo .profileMomentaneoSection .transactionBlock .headingTransaction{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:20px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .transactionBlock .headingTransaction .titleTransaction{
+    width:auto;
+    height:auto;
+    align-self: self-start;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* TransactionTable */
+
+.transactionTable{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.transactionTable .lineTitles{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transactionTable .lineTitles .titleTable{
+    width:100%;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding:0px 30px;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(1){
+    text-align: left;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(2){
+    text-align: center;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(3){
+    text-align: center;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(4){
+    text-align: right;
+}
+
+.transactionTable  .lineTransaction {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap:10px;
+}
+
+.transactionTable  .lineTransaction .linkToTrading{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    text-decoration: none;
+}
+
+.transactionTable  .lineTransaction .transactionPlace{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #444444;
+    border-radius: 10px;
+}
+
+.transactionTable  .lineTransaction .transactionPlace .item{
+    width:100%;
+    color:#A4A4A4;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.transactionTable  .lineTransaction .transactionPlace .item:nth-child(1){
+    text-align: left;
+}
+
+.transactionTable  .lineTransaction .transactionPlace .item:nth-child(2){
+    text-align: center;
+}
+
+.transactionTable  .lineTransaction .transactionPlace .item:nth-child(3){
+    text-align: center;
+}
+
+.transactionTable  .lineTransaction .transactionPlace .item:nth-child(4){
+    text-align: right;
+}
+
+.transactionTable  .lineTransaction .transactionPlace:nth-child(1) .item:nth-child(4){
+    color:#00FF66;
+    font-style:italic;
+    font-family: var(--fontFamilyIBM);
+}
+
+.transactionTable  .lineTransaction .transactionPlace:nth-child(2) .item:nth-child(4){
+    color:#cf0c00;
+    font-style:italic;
+    font-family: var(--fontFamilyIBM);
+}
+
+.transactionTable  .lineTransaction .transactionPlace:nth-child(3) .item:nth-child(4){
+    color:#9b9b9b;
+    font-style:italic;
+    font-family: var(--fontFamilyIBM);
+}
+
+.transactionTable  .lineTransaction .transactionPlace:nth-child(4) .item,
+.transactionTable  .lineTransaction .transactionPlace:nth-child(5) .item{
+    color:#e7e7e7;
+    text-align: center;
+}
+
+/* TransactionTable */
+
+.transactionTable {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.lineTransaction {
+    max-height: 140px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    opacity: 1;
+}
+
+#toggleTransaction:checked ~ .lineTransaction {
+    max-height: 500px;
+    opacity: 1;
+}
+
+#toggleTransaction {
+    display: none;
+}
+
+.toggleLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.arrow {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#toggleTransaction:checked ~ .toggleLabel .arrow {
+    transform: rotateX(180deg);
+}
+
+/* GoToDashboard Link*/
+
+.containerProfileMomentaneo .goToDashboard{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    margin:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:20px;
+}
+
+.containerProfileMomentaneo .goToDashboard .linkToDashboard{
+    width:auto;
+    height:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#1d1d1d;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding:10px 25px;
+    text-decoration:none;
+    background-color: #00FF66;
+    border-radius: 10px;
+    transition:0.3s ease-in;
+}
+
+.containerProfileMomentaneo .goToDashboard .linkToDashboard:hover{
+    background-color: #ffffff;
+}

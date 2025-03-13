@@ -1,0 +1,94 @@
+
+
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard{
+    width:350px;
+    text-decoration: none;
+}
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #172F1F;
+    border-radius: 20px;
+    overflow: hidden;
+    transition:0.3s ease-in-out;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .headingCard {
+    width:100%;
+    height:200px;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .headingCard .imageCard{
+    width:auto;
+    object-fit: cover;
+    transform: scale(100%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card:hover .headingCard .imageCard{
+    transform: scale(105%);
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card:hover .footerCard .arrowRight {
+    transform: translate(5px);
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .bodyCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    padding:20px ;
+    border-bottom:1px solid #2F4836;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .bodyCard .titleCard{
+    font-family: var(--fontFamilyIBM);
+    color:#E0E0E0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .footerCard{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding: 20px ;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .footerCard .content{
+    font-family: var(--fontFamilySpace);
+    color:#A9A9A9;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card .footerCard .arrowRight{
+    width:26px;
+    height:26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform:translate(0px);
+    transition:transform 0.3s ease-in-out;
+}

@@ -1,0 +1,166 @@
+
+/* MainContainer */
+
+/* AppMobile Section */
+
+.appMobileSection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px auto;
+}
+
+.appMobileSection .appMobileCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+
+.appMobileSection .appMobileCenter .titleSection{
+    font-family: var(--fontFamilyIBM);
+    color:transparent;
+    font-size: 5.625rem;
+    font-weight: 800;
+    background: radial-gradient(
+    closest-side at 50% 50%, /* Simula el efecto Diamond */
+    rgba(99, 125, 106, 0.84) 0%,
+    #4D6754 59%,
+    #2F4836 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    text-align: center;
+    animation:titleup 0.5s linear;
+}
+
+@keyframes titleup{
+    0%{
+        transform:translateY(100%);
+    }
+    100%{
+        transform:translateY(0%);
+    }
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/backgroundApps.webp");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:20px;
+    padding:50px 70px;
+    gap:100px;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .heading{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap:10px;
+    padding: 0px;
+    text-align: left;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .heading .subtitleSection{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilyIBM);
+    color:#DDDDDD;
+    font-size: 2.8125rem;
+    font-weight: 500;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .heading .text{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilySpace);
+    color:#BDBDBD;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .download{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:5px;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .download .textDownload{
+    width: 50%;
+    font-family: var(--fontFamilyIBM);
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .download .appsDownload{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:5px;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload.download .appsDownload .itemDownload{
+    width:100%;
+}
+
+.appMobileSection .appMobileCenter .appMobileBlock .infoDownload .download .appsDownload .itemDownload .item{
+    width:100%;
+}
+
+.appMobileSection .appMobileCenter .cellphoneImage{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appMobileSection .appMobileCenter .cellphoneImage .laptopDownload{
+    width:auto;
+    height: auto;
+    animation:laptop 20s linear infinite;
+}
+
+@keyframes laptop{
+    0%{
+        transform:scale(90%);
+    }
+    50%{
+        transform:scale(100%);
+    }
+    100%{
+        transform:scale(90%);
+    }
+
+}

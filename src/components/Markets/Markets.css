@@ -1,0 +1,196 @@
+
+
+/* Main container */
+
+/* Mercados Section */
+
+.mercadosSection{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px auto;
+}
+
+.mercadosSection .mercadosCenter{
+    width:90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mercadosSection .mercadosCenter .cellphone{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.mercadosSection .mercadosCenter .cellphone .imgCellphone{
+    width:60%;
+    z-index: 2;
+}
+
+.mercadosSection .mercadosCenter .cellphone .greenSpot{
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 150px 150px #00EF5D;
+    z-index: 1;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: #00C844;
+}
+
+
+/* cardMercados */
+
+.mercadosSection .mercadosCenter .cardMercados{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .headingCard{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .headingCard .titleSection{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilyIBM);
+    color:#DDDDDD;
+    font-size: 2.8125rem;
+    font-weight: 500;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .headingCard .text{
+    width:100%;
+    height: auto;
+    font-family: var(--fontFamilySpace);
+    color:#BDBDBD;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* cardBlock */
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card{
+    width:50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+    background-color:#172F1F;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card .bodyCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    text-align: left;
+    padding:30px 20px 20px;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card .bodyCard .titleCard{
+    font-family: var(--fontFamilyIBM);
+    color:#ffffff;
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card .bodyCard .textCard{
+    font-family: var(--fontFamilySpace);
+    color:#B6B6B6;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card .footerCard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:20px 20px 30px;
+    border-top: 1px solid #2F4836;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card .footerCard .criptoBunch{
+    width:100%;
+    height:auto;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cardBlock .card .footerCard .imgItem{
+    width:40px;
+    height:auto;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cta .text{
+    font-family: var(--fontFamilyIBM);
+    color:#00C844;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cta .query{
+    width:100%;
+    height:auto;
+    padding: 15px;
+    font-family: var(--fontFamilyIBM);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color:#00EF5D ;
+    color:#000000;
+    transition: 0.3s ease-in-out;
+}
+
+.mercadosSection .mercadosCenter .cardMercados .cta .query:hover{
+    background-color:#ffffff ;
+    color:#000000;
+}
