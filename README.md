@@ -107,35 +107,6 @@ body json: { "username": "alice", "password": "password123" }
 GET usuario
 GET localhost:8080/users/1
 
-UX/Ui Design:
-Optimal workshop
-Whimsical
-Figma
-Google forms
-Photopea
-
-Frontend:
-HTML
-CSS
-Javascript
-React
-Vite
-
-Backend:
-Java
-Swagger
-
-Links de desarrollo:
-
-Figma:
-https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974
-
-Documentacion - Swagger:
-https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/swagger-ui/index.html
-
-Despliegue
-https://fintechquo.netlify.app/
-
 
 Instancia = Cohorte
 
@@ -232,6 +203,14 @@ npm run dev
 - ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 - ![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
 - ![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+# 🔗 Links de Desarrollo
+
+- 🎨 [Figma](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974)
+
+- 📄 [Documentación - Swagger](https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/swagger-ui/index.html)
+
+- 🚀 [Despliegue](https://fintechquo.netlify.app/)
 
 ### 🧰 Backend:
 
