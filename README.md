@@ -18,24 +18,12 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 - **Instancia:** Cohorte
 - **Identificador del Equipo:** `C24-32-t-webapp`
 
-### 👥 **Miembros del Equipo**
-
-| Nombre                 | Rol                          |
-|------------------------|-------------------------------|
-| **Diego Marín**        | UX/UI Designer - Frontend Developer |
-| **Matias Nehuen Malpartida** | Backend                      |
-| **Jeheremi Ruiz**      | Backend                      |
-
-
-
-
-
 ## 👥 Equipo de Desarrollo
 
 | ![Diego Marín](https://github.com/user-attachments/assets/75f34e8b-78ca-4fa3-99be-cdc7707abda5) | ![Matias Nehuen](https://github.com/user-attachments/assets/0067fe68-b8f6-491a-83d8-60464ad4d48f) | ![Jeheremi Ruiz](https://github.com/user-attachments/assets/49acd878-7a7c-4035-9a4c-25576bb30316) |
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
 | **Diego Marín**                                                                                 | **Matias Nehuen Malpartida**                                                                     | **Jeheremi Ruiz**                                                                               |
-| **Rol:** UX/UI Designer - Frontend Developer                                                     | **Rol:** Backend Developer                                                                       | **Rol:** Backend Developer                                                                      |
+| **Rol:** UX/UI Designer </br> Frontend Developer                                                     | **Rol:** Backend Developer                                                                       | **Rol:** Backend Developer                                                                      |
 | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)</br> [![Portfolio Developer](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white)](https://portfolioraccoon.netlify.app/)</br> [![Portfolio UX/UI](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white)](https://design-portfolio-smoky.vercel.app/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasnm/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeheremi-ruiz-749796268/) |
 
 ---
