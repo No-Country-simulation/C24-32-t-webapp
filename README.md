@@ -29,33 +29,33 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ## 👥 Equipo de Desarrollo
 
-<div align="center">
+### Equipo de Desarrollo
 
-### 🟣 Diego Marín
+<div style="display: flex; justify-content: space-around; gap: 20px;">
 
-<div style="display: inline-block; text-align: center; margin: 10px; padding: 20px; border: 2px solid #6A0DAD; border-radius: 16px; width: 300px;">
-  <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" width="120" height="120" style="border-radius: 50%;">
-  <h3>UX/UI Designer - Frontend Developer</h3>
-  <a href="https://github.com/DiegoMarin" target="_blank">🔗 GitHub</a> | <a href="https://www.linkedin.com/in/DiegoMarin" target="_blank">🔗 LinkedIn</a> | <a href="https://portfolio-diego.com" target="_blank">🔗 Portfolio</a>
+<div style="border: 2px solid #ccc; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
+  <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
+  <h3>Diego Marín</h3>
+  <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
+  <p><a href="https://www.linkedin.com/in/diego-marin" target="_blank">LinkedIn</a></p>
 </div>
 
-### 🔵 Matias Nehuen Malpartida
-
-<div style="display: inline-block; text-align: center; margin: 10px; padding: 20px; border: 2px solid #0D6EFD; border-radius: 16px; width: 300px;">
-  <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" width="120" height="120" style="border-radius: 50%;">
-  <h3>Backend Developer</h3>
-  <a href="https://github.com/MatiasNehuen" target="_blank">🔗 GitHub</a> | <a href="https://www.linkedin.com/in/MatiasNehuen" target="_blank">🔗 LinkedIn</a>
+<div style="border: 2px solid #ccc; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
+  <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 100%; height: 300px; border-radius: 8px; object-fit: cover;" />
+  <h3>Matias Nehuen Malpartida</h3>
+  <p><strong>Rol:</strong> Backend Developer</p>
+  <p><a href="https://www.linkedin.com/in/matias-malpartida" target="_blank">LinkedIn</a></p>
 </div>
 
-### 🟢 Jeheremi Ruiz
-
-<div style="display: inline-block; text-align: center; margin: 10px; padding: 20px; border: 2px solid #198754; border-radius: 16px; width: 300px;">
-  <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" width="120" height="120" style="border-radius: 50%;">
-  <h3>Backend Developer</h3>
-  <a href="https://github.com/JeheremiRuiz" target="_blank">🔗 GitHub</a> | <a href="https://www.linkedin.com/in/JeheremiRuiz" target="_blank">🔗 LinkedIn</a>
+<div style="border: 2px solid #ccc; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
+  <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
+  <h3>Jeheremi Ruiz</h3>
+  <p><strong>Rol:</strong> Backend Developer</p>
+  <p><a href="https://www.linkedin.com/in/jeheremi-ruiz" target="_blank">LinkedIn</a></p>
 </div>
 
 </div>
+
  
 ---
 
