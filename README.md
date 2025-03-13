@@ -144,25 +144,38 @@ curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/users/1" 
 }
 ```
 
-BASE DE DATOS (AIVEN.COM)
-alice → Contraseña: password123
+## 🗄️ Base de Datos (Aiven.com)
 
-bob → Contraseña: securePass!
-
-eve → Contraseña: mySecret#
-
-ENDPOINT LOCALES
-
-Conseguir TOKEN
-POST localhost:8080/login
-
-body json: { "username": "alice", "password": "password123" }
-
-GET usuario
-GET localhost:8080/users/1
+| Usuario | Contraseña     |
+|---------|----------------|
+| alice   | password123    |
+| bob     | securePass!    |
+| eve     | mySecret#      |
 
 ---
 
+## 📡 Endpoints Locales
+
+### 🗝️ Conseguir Token
+
+```bash
+POST localhost:8080/login
+```
+
+**Body (JSON):**
+```json
+{
+  "username": "alice",
+  "password": "password123"
+}
+```
+
+### 👤 Obtener Usuario
+
+```bash
+GET localhost:8080/users/1
+
+---
 
 # 🔗 Links de Desarrollo
 
