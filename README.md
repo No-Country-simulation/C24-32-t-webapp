@@ -49,7 +49,29 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 - ![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
 - ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-  
+
+## 📄 **UX Research y diseño UX/Ui**
+
+🧪 Investigación y Validación del Prototipo – Quo Fintech
+En el desarrollo de Quo Fintech, se priorizó un enfoque centrado en el usuario para garantizar una experiencia intuitiva y eficiente. La fase de investigación se enfocó en comprender las necesidades financieras de los usuarios, identificar los puntos de fricción en plataformas similares y validar las soluciones propuestas a través de pruebas iterativas.
+
+Se llevaron a cabo estudios cualitativos y cuantitativos, incluyendo encuestas, entrevistas y análisis de la competencia, con el objetivo de definir los flujos de usuario, establecer patrones de comportamiento y validar las funcionalidades clave.
+
+El prototipo interactivo se sometió a pruebas de usabilidad con usuarios reales, permitiendo recopilar feedback sobre la navegación, la arquitectura de la información y el diseño visual. Estas validaciones iterativas ayudaron a optimizar la interfaz, mejorar la accesibilidad y asegurar que las decisiones de diseño estuvieran alineadas con las expectativas y necesidades del público objetivo.
+
+El resultado es una plataforma que combina una experiencia fluida con un diseño coherente, orientado a facilitar la gestión financiera y reforzar la confianza del usuario a través de una interacción clara y accesible.
+
+Para mayor conocimiento los links de su investigaci+on y calidación prototipo:
+
+💻UX Research:
+![UX Research]([https://fintechquo.netlify.app/](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A2&node-id=65-1364&p=f&viewport=-8082%2C219%2C0.26&t=MsQYp0BNkfTRndxM-1&scaling=scale-down&content-scaling=fixed))
+
+🔰Proceso de desarrollo en figma:
+[![Prototipo](https://www.figma.com/design/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?node-id=0-1&t=c3pELqfLcxZl4SJX-1)
+
+✨Prototipo en alta:
+[![Prototipo](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974)
+
 ## 📄 **Cómo Ejecutar el Proyecto Localmente**
 
 1. Clonar el repositorio:
