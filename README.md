@@ -45,10 +45,18 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 - ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 - ![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
 - ![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+  
 ### 🧰 Backend:
 
 - ![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
 - ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
+### 🗂️Trello:
+
+Gestión de Tareas con Trello:
+
+- [![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/)
+
 
 ## 📄 **UX Research y diseño UX/Ui**
 
