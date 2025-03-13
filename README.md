@@ -174,8 +174,7 @@ POST localhost:8080/login
 
 ```bash
 GET localhost:8080/users/1
-
----
+```
 
 # 🔗 Links de Desarrollo
 
