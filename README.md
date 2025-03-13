@@ -28,7 +28,6 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ---
 
-//////////////////////////////////////
 ## 🛠️ Tecnologías Utilizadas
 
 ### 🎨 UX/UI Design:
@@ -161,8 +160,6 @@ body json: { "username": "alice", "password": "password123" }
 
 GET usuario
 GET localhost:8080/users/1
-
-////////////////////////////////////////////////////////
 
 ---
 
