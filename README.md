@@ -28,26 +28,26 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ## 👥 Equipo de Desarrollo
 
-### 🧑‍🎨 Diego Marín  
+### 🧑‍🎨 Diego Marín 
+![silueta](https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54)
 **Rol:** UX/UI Designer - Frontend Developer  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)
-[![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white)](https://portfolioraccoon.netlify.app/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white)](https://design-portfolio-smoky.vercel.app/)  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/diegomarinmora/)  
+![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white) [Web Portfolio](https://portfolioraccoon.netlify.app/)  
+![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white) [UX/Ui Designer](https://design-portfolio-smoky.vercel.app/)  
 
 ---
 
 ### 🧑‍💻 Matias Nehuen Malpartida  
+![image](https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262)
 **Rol:** Backend Developer  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasnm/)  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/matiasnm/)  
 
 ---
 
 ### 🧑‍💻 Jeheremi Ruiz  
+![image](https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d)
 **Rol:** Backend Developer  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeheremi-ruiz-749796268/)  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/jeheremi-ruiz-749796268/)  
 
 ---
 
@@ -206,6 +206,4 @@ GET localhost:8080/users/1
 - 📄 [Documentación - Swagger](https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/swagger-ui/index.html)
 
 - 🚀 [Deployment](https://fintechquo.netlify.app/)
-
-
 
