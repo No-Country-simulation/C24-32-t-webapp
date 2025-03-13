@@ -26,39 +26,35 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 | **Matias Nehuen Malpartida** | Backend                      |
 | **Jeheremi Ruiz**      | Backend                      |
 
-
 ## 👥 Equipo de Desarrollo
 
-### Equipo de Desarrollo
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 20px;">
 
-<div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; gap: 20px;">
+  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #fff;">
+    <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
+    <h3 style="margin: 10px 0;">Diego Marín</h3>
+    <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
+    <p><a href="https://www.linkedin.com/in/diego-marin" target="_blank">LinkedIn</a></p>
+    <p><a href="https://portfolioraccoon.netlify.app/" target="_blank">Portfolio Web Developer</a></p>
+    <p><a href="https://design-portfolio-smoky.vercel.app/" target="_blank">Portfolio UX/UI Designer</a></p>
+  </div>
 
-<div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
-  <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
-  <h3>Diego Marín</h3>
-  <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
-  <p><a href="https://www.linkedin.com/in/diego-marin" target="_blank">LinkedIn</a></p>
-   <p><a href="https://github.com/DIGORACCOON4279" target="_blank">LinkedIn</a></p>
-   <p><a href="https://portfolioraccoon.netlify.app/" target="_blank">LinkedIn</a></p>
-</div>
+  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #fff;">
+    <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
+    <h3 style="margin: 10px 0;">Matias Nehuen Malpartida</h3>
+    <p><strong>Rol:</strong> Backend Developer</p>
+    <p><a href="https://www.linkedin.com/in/matias-malpartida" target="_blank">LinkedIn</a></p>
+  </div>
 
-<div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
-  <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 100%; height: 300px; border-radius: 8px; object-fit: cover;" />
-  <h3>Matias Nehuen Malpartida</h3>
-  <p><strong>Rol:</strong> Backend Developer</p>
-  <p><a href="https://www.linkedin.com/in/matias-malpartida" target="_blank">LinkedIn</a></p>
-</div>
-
-<div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
-  <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
-  <h3>Jeheremi Ruiz</h3>
-  <p><strong>Rol:</strong> Backend Developer</p>
-  <p><a href="https://www.linkedin.com/in/jeheremi-ruiz" target="_blank">LinkedIn</a></p>
-</div>
+  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #fff;">
+    <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
+    <h3 style="margin: 10px 0;">Jeheremi Ruiz</h3>
+    <p><strong>Rol:</strong> Backend Developer</p>
+    <p><a href="https://www.linkedin.com/in/jeheremi-ruiz" target="_blank">LinkedIn</a></p>
+  </div>
 
 </div>
 
- 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
