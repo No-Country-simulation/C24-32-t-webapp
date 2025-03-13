@@ -31,23 +31,23 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ### 🧑‍🎨 Diego Marín  
 **Rol:** UX/UI Designer - Frontend Developer  
 
-![(https://www.linkedin.com/in/diegomarinmora/)](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/diegomarinmora/)  
-![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white) [](https://portfolioraccoon.netlify.app/)  
-![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white) [](https://design-portfolio-smoky.vercel.app/)  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/diegomarinmora/)  
+![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white) [UX/Ui Designer](https://portfolioraccoon.netlify.app/)  
+![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white) [Web Portfolio](https://design-portfolio-smoky.vercel.app/)  
 
 ---
 
 ### 🧑‍💻 Matias Nehuen Malpartida  
 **Rol:** Backend Developer  
 
-![](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/matiasnm/)  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/matiasnm/)  
 
 ---
 
 ### 🧑‍💻 Jeheremi Ruiz  
 **Rol:** Backend Developer  
 
-![](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/jeheremi-ruiz-749796268/)  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/jeheremi-ruiz-749796268/)  
 
 ---
 
