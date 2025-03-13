@@ -28,7 +28,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ## 👥 Equipo de Desarrollo
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+<div style="display: flex; dlex-direction: row; justify-content: space-around; flex-wrap: wrap;">
 
 <!-- Diego Marín -->
 <div style="text-align: center; margin: 10px;">
