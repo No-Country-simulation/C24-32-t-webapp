@@ -5,13 +5,13 @@
 ## ⚡ Descripción
 Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en el mundo de las criptomonedas. Ofrece recursos interactivos, información actualizada y herramientas de aprendizaje para comprender el funcionamiento del mercado cripto de manera accesible. Te permite comprar y vender 9 criptomonedas con un saldo inicial simulado de 1000 USD
 
-🔍 Funciones principales:
-✔ Cursos y guías interactivas: Material educativo que explica desde conceptos básicos hasta estrategias avanzadas de inversión en criptomonedas.
- ✔Simulador de inversión: Espacio para practicar con criptomonedas virtuales y aprender a gestionar un portafolio sin riesgos reales.
-✔ Análisis del mercado en tiempo real: Acceso a gráficos y precios actualizados para comprender las dinámicas del ecosistema cripto.
-✔ Glosario de términos cripto: Definiciones claras y accesibles para entender la jerga del mundo blockchain.
+🔍 Funciones principales:</br>
+✔ Cursos y guías interactivas: Material educativo que explica desde conceptos básicos hasta estrategias avanzadas de inversión en criptomonedas. </br>
+✔ Simulador de inversión: Espacio para practicar con criptomonedas virtuales y aprender a gestionar un portafolio sin riesgos reales.</br>
+✔ Análisis del mercado en tiempo real: Acceso a gráficos y precios actualizados para comprender las dinámicas del ecosistema cripto.</br>
+✔ Glosario de términos cripto: Definiciones claras y accesibles para entender la jerga del mundo blockchain.</br>
 
-👉 En resumen: Quo es una plataforma educativa que democratiza el conocimiento sobre criptomonedas, combinando recursos de aprendizaje interactivos con herramientas de análisis del mercado para una experiencia formativa completa.
+👉 En resumen: Quo es una plataforma educativa que democratiza el conocimiento sobre criptomonedas, combinando recursos de aprendizaje interactivos con herramientas de análisis del mercado para una experiencia formativa completa.</br>
 
 ## 📌 **Información del Proyecto**
 
