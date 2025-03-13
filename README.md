@@ -28,29 +28,34 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ## 👥 Equipo de Desarrollo
 
-<div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+<div style="display: flex; flex-direction: row; justify-content: center; gap: 40px; font-family: 'Arial', sans-serif;">
 
-  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-    <h3>Diego Marín</h3>
-    <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
-    <p><a href="https://www.linkedin.com/in/diegomarinmora/" target="_blank">LinkedIn</a></p>
-    <p><a href="https://portfolioraccoon.netlify.app/" target="_blank">Portfolio Web Developer</a></p>
-    <p><a href="https://design-portfolio-smoky.vercel.app/" target="_blank">Portfolio UX/UI Designer</a></p>
+  <!-- Perfil de Diego Marín -->
+  <div style="border: 1px solid #ddd; border-radius: 20px; padding: 30px; text-align: center; width: 320px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08); transition: transform 0.3s ease;">
+    <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;" />
+    <h3 style="margin: 10px 0; font-size: 1.5rem; color: #333;">Diego Marín</h3>
+    <p style="color: #555;"><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
+    <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">
+      <a href="https://www.linkedin.com/in/diegomarinmora/" target="_blank" style="text-decoration: none; color: inherit;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#0077B5"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.45c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.45h-3v-5.5c0-1.32-.03-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9v5.6h-3v-10h2.88v1.36h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.61 2 3.61 4.61v5.59z"/></svg>
+      </a>
+      <a href="https://portfolioraccoon.netlify.app/" target="_blank" style="text-decoration: none; color: inherit;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#6E57E0"><path d="M12 0c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm1 17h-2v-2h2v2zm0-4h-2v-6h2v6z"/></svg>
+      </a>
+      <a href="https://design-portfolio-smoky.vercel.app/" target="_blank" style="text-decoration: none; color: inherit;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#6E57E0"><path d="M12 0c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm1 17h-2v-2h2v2zm0-4h-2v-6h2v6z"/></svg>
+      </a>
+    </div>
   </div>
 
-  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-    <h3>Matias Nehuen Malpartida</h3>
-    <p><strong>Rol:</strong> Backend Developer</p>
-    <p><a href="https://www.linkedin.com/in/matiasnm/" target="_blank">LinkedIn</a></p>
-  </div>
-
-  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-    <h3>Jeheremi Ruiz</h3>
-    <p><strong>Rol:</strong> Backend Developer</p>
-    <p><a href="https://www.linkedin.com/in/jeheremi-ruiz-749796268/" target="_blank">LinkedIn</a></p>
+  <!-- Perfil de Matias Nehuen Malpartida -->
+  <div style="border: 1px solid #ddd; border-radius: 20px; padding: 30px; text-align: center; width: 320px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08); transition: transform 0.3s ease;">
+    <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;" />
+    <h3 style="margin: 10px 0; font-size: 1.5rem; color: #333;">Matias Nehuen Malpartida</h3>
+    <p style="color: #555;"><strong>Rol:</strong> Backend Developer</p>
+    <a href="https://www.linkedin.com/in/matiasnm/" target="_blank" style="text-decoration: none; color: inherit; display: inline-block; margin-top: 20px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#0077B5"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.45c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.45h-3v-5.5c0-1.32-.03-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9v5.6h-3v-10h2.88v1.36h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.61 2 3.61 4.61v5.59z"/></svg>
+    </a>
   </div>
 
 </div>
