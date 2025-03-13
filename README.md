@@ -178,9 +178,10 @@ GET localhost:8080/users/1
 
 # 🔗 Links de Desarrollo
 
-- 🎨 [Figma](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974)
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974)
 
-- 📄 [Documentación - Swagger](https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/swagger-ui/index.html)
+[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)](https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/swagger-ui/index.html)
 
-- 🚀 [Deployment](https://fintechquo.netlify.app/)
+[![Deployment](https://img.shields.io/badge/Deployment-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://fintechquo.netlify.app/)
+
 
