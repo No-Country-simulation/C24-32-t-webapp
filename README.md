@@ -29,7 +29,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ## 👥 Equipo de Desarrollo
 
 ### Diego Marín 
-<img alt="Jeheremi Ruiz" width="150" height="170" style="border-radius: 50%; object-fit: cover;" src="https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54">
+<img alt="Jeheremi Ruiz" width="150" height="170" style="border-radius: 50%; object-fit: cover;" src="https://github.com/user-attachments/assets/9ca006cf-d6ac-4858-a9a6-33e22bd8a6c7">
 
 **Rol:** UX/UI Designer - Frontend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)
