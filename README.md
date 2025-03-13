@@ -29,7 +29,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ## 👥 Equipo de Desarrollo
 
 ### Diego Marín 
-<img alt="Jeheremi Ruiz" width="150" height="170" style="border-radius: 50%; object-fit: cover;" src="https://github.com/user-attachments/assets/9ca006cf-d6ac-4858-a9a6-33e22bd8a6c7">
+<img alt="Jeheremi Ruiz" width="150" height="150" style="border-radius: 50%; object-fit: contain;" src="https://github.com/user-attachments/assets/9ca006cf-d6ac-4858-a9a6-33e22bd8a6c7">
 
 **Rol:** UX/UI Designer - Frontend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)
@@ -39,7 +39,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ---
 
 ### Matias Nehuen Malpartida  
-<img alt="Matias Nehuen" width="150" height="170" style="border-radius: 50%; object-fit: cover;" src="https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262">
+<img alt="Matias Nehuen" width="150" height="170" style="border-radius: 50%; object-fit: contain;" src="https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262">
 
 **Rol:** Backend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasnm/)  
@@ -47,7 +47,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ---
 
 ### Jeheremi Ruiz  
-<img src="https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d" alt="Jeheremi Ruiz" width="150" height="170" style="border-radius: 50%; object-fit: cover;"/>
+<img src="https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d" alt="Jeheremi Ruiz" width="150" height="150" style="border-radius: 50%; object-fit: contain;"/>
 
 **Rol:** Backend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeheremi-ruiz-749796268/)
