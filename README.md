@@ -182,7 +182,7 @@ GET localhost:8080/users/1
 
 - 📄 [Documentación - Swagger](https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/swagger-ui/index.html)
 
-- 🚀 [Despliegue](https://fintechquo.netlify.app/)
+- 🚀 [Deployment](https://fintechquo.netlify.app/)
 
 
 
