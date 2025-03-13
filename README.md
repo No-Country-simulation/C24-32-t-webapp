@@ -26,6 +26,14 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 | **Matias Nehuen Malpartida** | Backend                      |
 | **Jeheremi Ruiz**      | Backend                      |
 
+
+![silueta](https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7)
+
+![image](https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727)
+
+![image](https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6)
+
+
 ---
 
 ## 🛠️ Tecnologías Utilizadas
