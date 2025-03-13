@@ -30,7 +30,9 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ### 🧑‍🎨 Diego Marín 
 <div style="width: 100px; height:150px; object-fit📔">
-![silueta](https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54)
+  <img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54">
+<!-- ![silueta](https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54)
+   -->
 </div>
 **Rol:** UX/UI Designer - Frontend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)  
@@ -41,7 +43,10 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ### 🧑‍💻 Matias Nehuen Malpartida  
 <div style="width: 100px; height:150px; object-fit📔">
-![image](https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262)
+    <img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262">
+
+<!-- ![image](https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262)
+   -->
 </div>
 **Rol:** Backend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasnm/)  
@@ -50,7 +55,10 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ### 🧑‍💻 Jeheremi Ruiz  
 <div style="width: 100px; height:150px; object-fit📔">
-![image](https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d)
+      <img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d">
+
+<!-- ![image](https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d)
+   -->
 </div>
 **Rol:** Backend Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeheremi-ruiz-749796268/)  
