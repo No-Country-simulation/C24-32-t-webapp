@@ -29,20 +29,20 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ## 👥 Equipo de Desarrollo
 
 ### 🧑‍🎨 Diego Marín 
-<div style="width: 100px; height:150px; object-fit📔">
+<div style="width: 150px; height:150px; object-fit📔">
   <img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54">
 <!-- ![silueta](https://github.com/user-attachments/assets/054371ad-a53d-4ad5-af21-b02d8561dc54)
    -->
 </div>
 **Rol:** UX/UI Designer - Frontend Developer  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diegomarinmora/)
 [![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white)](https://portfolioraccoon.netlify.app/)  
 [![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white)](https://design-portfolio-smoky.vercel.app/)  
 
 ---
 
 ### 🧑‍💻 Matias Nehuen Malpartida  
-<div style="width: 100px; height:150px; object-fit📔">
+<div style="width: 150px; height:150px; object-fit📔">
     <img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262">
 
 <!-- ![image](https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262)
@@ -54,8 +54,8 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ---
 
 ### 🧑‍💻 Jeheremi Ruiz  
-<div style="width: 100px; height:150px; object-fit📔">
-      <img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d">
+<div style="width: 150px; height:150px; object-fit📔">
+<img style="width: 100px; height:150px; object-fit📔" src="https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d">
 
 <!-- ![image](https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d)
    -->
