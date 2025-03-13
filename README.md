@@ -69,7 +69,7 @@ El prototipo interactivo se sometió a pruebas de usabilidad con usuarios reales
 
 El resultado es una plataforma que combina una experiencia fluida con un diseño coherente, orientado a facilitar la gestión financiera y reforzar la confianza del usuario a través de una interacción clara y accesible.
 
-Para mayor conocimiento los links de su investigaci+on y calidación prototipo:
+Para mayor conocimiento links a la investigación, desarrollo y prototipo:
 
 💻UX Research:</br>
 [![UXResearch](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?node-id=0-1&t=c3pELqfLcxZl4SJX-1)
