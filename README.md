@@ -32,8 +32,8 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 **Rol:** UX/UI Designer - Frontend Developer  
 
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn](https://www.linkedin.com/in/diegomarinmora/)  
-![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white) [UX/Ui Designer](https://portfolioraccoon.netlify.app/)  
-![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white) [Web Portfolio](https://design-portfolio-smoky.vercel.app/)  
+![Portfolio](https://img.shields.io/badge/Portfolio%20Developer-000000?style=for-the-badge&logo=github&logoColor=white) [Web Portfolio](https://portfolioraccoon.netlify.app/)  
+![Portfolio](https://img.shields.io/badge/Portfolio%20UX%2FUI-FF69B4?style=for-the-badge&logo=behance&logoColor=white) [UX/Ui Designer](https://design-portfolio-smoky.vercel.app/)  
 
 ---
 
