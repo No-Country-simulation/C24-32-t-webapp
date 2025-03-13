@@ -26,35 +26,54 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 | **Matias Nehuen Malpartida** | Backend                      |
 | **Jeheremi Ruiz**      | Backend                      |
 
+## 👥 Equipo de Desarrollo
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-  <!-- Perfil: Diego Marín -->
-  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-    <h3>Diego Marín</h3>
-    <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
-    <p><a href="https://www.linkedin.com/in/diegomarinmora/" target="_blank">LinkedIn</a></p>
-    <p><a href="https://portfolioraccoon.netlify.app/" target="_blank">Portfolio Web Developer</a></p>
-    <p><a href="https://design-portfolio-smoky.vercel.app/" target="_blank">Portfolio UX/UI Designer</a></p>
-  </div>
+<!-- Diego Marín -->
+<div align="center" style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" width="150" height="150" style="border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
+  <h3>Diego Marín</h3>
+  <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
+  <p>
+    <a href="https://www.linkedin.com/in/diegomarinmora/" target="_blank">
+      ![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+    </a>
+    <a href="https://portfolioraccoon.netlify.app/" target="_blank">
+      ![Web Developer Portfolio](https://img.shields.io/badge/Web%20Developer%20Portfolio-000000?style=for-the-badge&logo=code&logoColor=white)
+    </a>
+    <a href="https://design-portfolio-smoky.vercel.app/" target="_blank">
+      ![UX/UI Portfolio](https://img.shields.io/badge/UX/UI%20Portfolio-FF4088?style=for-the-badge&logo=adobecreativecloud&logoColor=white)
+    </a>
+  </p>
+</div>
 
-  <!-- Perfil: Matias Nehuen Malpartida -->
-  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-    <h3>Matias Nehuen Malpartida</h3>
-    <p><strong>Rol:</strong> Backend Developer</p>
-    <p><a href="https://www.linkedin.com/in/matiasnm/" target="_blank">LinkedIn</a></p>
-  </div>
+<!-- Matias Nehuen Malpartida -->
+<div align="center" style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" width="150" height="150" style="border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
+  <h3>Matias Nehuen Malpartida</h3>
+  <p><strong>Rol:</strong> Backend Developer</p>
+  <p>
+    <a href="https://www.linkedin.com/in/matiasnm/" target="_blank">
+      ![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+    </a>
+  </p>
+</div>
 
-  <!-- Perfil: Jeheremi Ruiz -->
-  <div style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-    <h3>Jeheremi Ruiz</h3>
-    <p><strong>Rol:</strong> Backend Developer</p>
-    <p><a href="https://www.linkedin.com/in/jeheremi-ruiz-749796268/" target="_blank">LinkedIn</a></p>
-  </div>
+<!-- Jeheremi Ruiz -->
+<div align="center" style="border: 2px solid #ccc; border-radius: 16px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" width="150" height="150" style="border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
+  <h3>Jeheremi Ruiz</h3>
+  <p><strong>Rol:</strong> Backend Developer</p>
+  <p>
+    <a href="https://www.linkedin.com/in/jeheremi-ruiz-749796268/" target="_blank">
+      ![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+    </a>
+  </p>
+</div>
 
 </div>
+
 
 
 ---
