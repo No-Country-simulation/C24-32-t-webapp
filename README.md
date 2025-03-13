@@ -31,23 +31,23 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ### Equipo de Desarrollo
 
-<div style="display: flex; justify-content: space-around; gap: 20px;">
+<div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; gap: 20px;">
 
-<div style="border: 2px solid #ccc; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
+<div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
   <img src="https://github.com/user-attachments/assets/6b331812-f857-46c5-b8aa-6cb31c4169b7" alt="Diego Marín" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
   <h3>Diego Marín</h3>
   <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
   <p><a href="https://www.linkedin.com/in/diego-marin" target="_blank">LinkedIn</a></p>
 </div>
 
-<div style="border: 2px solid #ccc; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
+<div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
   <img src="https://github.com/user-attachments/assets/abc0f638-f779-4c50-b676-0060c93d4727" alt="Matias Nehuen Malpartida" style="width: 100%; height: 300px; border-radius: 8px; object-fit: cover;" />
   <h3>Matias Nehuen Malpartida</h3>
   <p><strong>Rol:</strong> Backend Developer</p>
   <p><a href="https://www.linkedin.com/in/matias-malpartida" target="_blank">LinkedIn</a></p>
 </div>
 
-<div style="border: 2px solid #ccc; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
+<div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
   <img src="https://github.com/user-attachments/assets/fb7c3a22-bc70-421a-bfe0-ce881c51b8e6" alt="Jeheremi Ruiz" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
   <h3>Jeheremi Ruiz</h3>
   <p><strong>Rol:</strong> Backend Developer</p>
