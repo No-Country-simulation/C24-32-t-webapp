@@ -38,6 +38,8 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
   <h3>Diego Marín</h3>
   <p><strong>Rol:</strong> UX/UI Designer - Frontend Developer</p>
   <p><a href="https://www.linkedin.com/in/diego-marin" target="_blank">LinkedIn</a></p>
+   <p><a href="https://github.com/DIGORACCOON4279" target="_blank">LinkedIn</a></p>
+   <p><a href="https://portfolioraccoon.netlify.app/" target="_blank">LinkedIn</a></p>
 </div>
 
 <div style="border: 2px solid #ccc; overflow: cover; border-radius: 12px; padding: 20px; text-align: center; width: 300px;">
