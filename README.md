@@ -26,9 +26,13 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 | **Matias Nehuen Malpartida** | Backend                      |
 | **Jeheremi Ruiz**      | Backend                      |
 
+
+
+
+
 ## 👥 Equipo de Desarrollo
 
-| ![Diego Marín](https://github.com/user-attachments/assets/9ca006cf-d6ac-4858-a9a6-33e22bd8a6c7) | ![Matias Nehuen](https://github.com/user-attachments/assets/17d3b8c2-f47f-42c0-83d9-be6157cd6262) | ![Jeheremi Ruiz](https://github.com/user-attachments/assets/d5b0e999-8cd4-4bba-9472-91fd4546da4d) |
+| ![Diego Marín](https://github.com/user-attachments/assets/75f34e8b-78ca-4fa3-99be-cdc7707abda5) | ![Matias Nehuen](https://github.com/user-attachments/assets/0067fe68-b8f6-491a-83d8-60464ad4d48f) | ![Jeheremi Ruiz](https://github.com/user-attachments/assets/49acd878-7a7c-4035-9a4c-25576bb30316) |
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
 | **Diego Marín**                                                                                 | **Matias Nehuen Malpartida**                                                                     | **Jeheremi Ruiz**                                                                               |
 | **Rol:** UX/UI Designer - Frontend Developer                                                     | **Rol:** Backend Developer                                                                       | **Rol:** Backend Developer                                                                      |
