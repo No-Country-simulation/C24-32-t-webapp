@@ -49,6 +49,8 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 ### 🧰 Backend:
 
 - ![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
+- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 - ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
 ### 🗂️ Gestión de Tareas:
