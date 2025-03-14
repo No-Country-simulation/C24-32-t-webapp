@@ -51,9 +51,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 - ![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
 - ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-### 🗂️Trello:
-
-Gestión de Tareas con Trello:
+### 🗂️ Gestión de Tareas:
 
 - [![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/)
 
