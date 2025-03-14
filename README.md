@@ -30,7 +30,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ## 🛠️ Tecnologías Utilizadas
 
-### 🎨 UX/UI Design:
+## 🎨 UX/UI Design:
 
 - ![Optimal Workshop](https://img.shields.io/badge/Optimal%20Workshop-%23008AD7?style=for-the-badge&logoColor=white)
 - ![Whimsical](https://img.shields.io/badge/Whimsical-%23602F96?style=for-the-badge&logo=whimsical&logoColor=white)
@@ -38,7 +38,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 - ![Google Forms](https://img.shields.io/badge/Google%20Forms-%234285F4?style=for-the-badge&logo=googleforms&logoColor=white)
 - ![Photopea](https://img.shields.io/badge/Photopea-%23000000?style=for-the-badge&logo=photopea&logoColor=white)
 
-### 💻 Frontend:
+## 💻 Frontend:
 
 - ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -46,14 +46,14 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 - ![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
 - ![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
   
-### 🧰 Backend:
+## 🧰 Backend:
 
 - ![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
 - ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 - ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-### 🗂️ Gestión de Tareas:
+## 🗂️ Gestión de Tareas:
 
 - ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
@@ -113,7 +113,7 @@ Bienvenido a la documentación de la **API de Quo**. Aquí encontrarás los prin
 
 ## 📌 Endpoints
 
-### 1. Obtener lista de monedas
+## 1. Obtener lista de monedas
 
 **Descripción:** Recupera un listado actualizado de las criptomonedas disponibles.
 
@@ -127,7 +127,7 @@ GET /coins
 curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/coins"
 ```
 
-### 2. Iniciar sesión
+## 2. Iniciar sesión
 
 **Descripción:** Permite a un usuario autenticarse en la plataforma y recibir un token JWT.
 
@@ -151,7 +151,7 @@ curl -X POST "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/login" \
 }
 ```
 
-### 3. Obtener información de un usuario
+## 3. Obtener información de un usuario
 
 **Descripción:** Recupera los detalles de un usuario específico autenticado mediante un token JWT.
 
@@ -187,7 +187,7 @@ curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/users/1" 
 
 ## 📡 Endpoints Locales
 
-### 🗝️ Conseguir Token
+## 🗝️ Conseguir Token
 
 ```bash
 POST localhost:8080/login
@@ -201,13 +201,13 @@ POST localhost:8080/login
 }
 ```
 
-### 👤 Obtener Usuario
+## 👤 Obtener Usuario
 
 ```bash
 GET localhost:8080/users/1
 ```
 
-# 🔗 Links de Desarrollo
+## 🔗 Links de Desarrollo
 
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974)
 
