@@ -172,7 +172,7 @@ curl -X GET "https://resulting-rattlesnake-matiasnm-db6f89e2.koyeb.app/users/1" 
 }
 ```
 
-## 🗄️ Base de Datos (Aiven.com)
+## 🗄️ Base de Datos
 
 | Usuario | Contraseña     |
 |---------|----------------|
