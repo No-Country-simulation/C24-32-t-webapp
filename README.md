@@ -53,7 +53,7 @@ Quo es una web app educativa diseñada para enseñar y guiar a los usuarios en e
 
 ### 🗂️ Gestión de Tareas:
 
-- [![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/)
+- ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
 
 ## 📄 **UX Research y diseño UX/Ui**
