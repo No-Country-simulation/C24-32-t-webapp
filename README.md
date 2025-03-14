@@ -107,7 +107,7 @@ npm install
 npm run dev
 ```
 
-# 📘 Quo API - Documentación
+## 📘 Quo API - Documentación
 
 Bienvenido a la documentación de la **API de Quo**. Aquí encontrarás los principales endpoints para interactuar con la API.
 
