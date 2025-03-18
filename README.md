@@ -77,6 +77,11 @@ Para mayor conocimiento links a la investigación, desarrollo y prototipo:
 🔰Proceso de desarrollo:</br>
 [![Desarrollo](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?node-id=0-1&t=c3pELqfLcxZl4SJX-1)
 
+📱Wireframe Cellphone en baja:</br>
+[![Wireframe Cellphone en baja](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=115%3A1252&node-id=115-1572&p=f&viewport=265%2C16%2C0.06&t=eV87qLZgdFpzFOki-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=115%3A1572)
+
+🖥Wireframe Desktop en baja:</br>
+[![Wireframe Desktop en baja](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)]([![Desarrollo](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A3&node-id=65-1317&p=f&viewport=119%2C195%2C0.03&t=rCZQ4VwkeMcmowBL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=65%3A1317)
 
 ✨Prototipo en alta:</br>
 [![Prototipo](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/p7LUA1RnHMMGC7FcJo6p3m/Quo-Fintech?page-id=1%3A15&node-id=43-1974&p=f&viewport=-91%2C-175%2C0.03&t=Y3GhwgH1ofKyrqib-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=43%3A1974)
